@@ -1,0 +1,336 @@
+
+
+
+/*Extra Layout 2000px to 1201px*/
+@media only screen and (max-width: 1326px){
+
+
+
+}
+/*Desktop Layout 1200px to 992px*/
+@media only screen and (max-width: 1200px){
+
+	header{
+		padding: 5rem 0rem 20rem;
+	}
+	section{
+		padding: 6rem 5rem;
+	}
+	footer{
+		padding: 7rem 5rem 5rem;
+	}
+	.booking-section{
+		padding: 0rem 5rem;
+	}
+	/*header section*/
+	.header-contain1{
+		max-width: 90rem;
+	}
+	.left-navbar li a:link,
+	.left-navbar li a:visited{
+		margin-right: 2rem;
+	}
+
+
+}
+@media only screen and (max-width: 1040px){
+
+	/*sticky menu*/
+	.fixed{
+		padding: 1.5rem 5rem;
+	}
+
+}
+
+
+
+
+
+
+/*Tablet Layout 991px to 768px*/
+@media only screen and (max-width: 991px){
+
+	/*header section*/
+	.navbar{
+		display: flex;
+		flex-direction: column;
+    	align-items: center;
+	}
+	.logo img{
+		width: 20rem;
+	}
+	.main-menu{
+		display: flex;
+		flex-direction: column;
+    	align-items: center;
+	}
+	.left-navbar{
+		margin: 3rem 0rem 2rem;
+	}
+	.header-contain2{
+		text-align: center;
+	}
+	.header-contain2 .btn{
+		display: inline-block;
+	}
+
+}
+@media only screen and (max-width: 928px){
+
+	/*Booking Scetion*/
+	.booking-form button{
+		padding: 1.5rem 2rem;
+	}
+
+}
+@media only screen and (max-width: 800px){
+
+
+	html{
+		font-size: 56.5%;
+	}
+	/*Booking Scetion*/
+	.booking-form button{
+		margin-top: 1rem;
+	}
+	/*Blog Section*/
+	.blog-item img {
+	    height: 22rem;
+	}
+	/*Expert Section*/
+	.expert-item img {
+	    height: 25rem;
+	}
+	/*Footer Section*/
+	.footer-item1 p{
+		line-height: 1.6em;
+	}
+	.footer-blog{
+		margin-bottom: 4.5rem;
+	}
+
+}
+
+
+
+
+/*Wide Mobile Layout 767px to 480px*/
+@media only screen and (max-width: 767px){
+
+
+	.title{
+		text-align: center;
+	}
+	/*booking section*/
+	.booking-item1{
+		display: none;
+	}
+	.booking-section{
+		padding: 6rem 5rem;
+	}
+	.booking-form button{
+		margin-top: 3rem;
+	}
+	/*about Section*/
+	.about-item2{
+		display: none;
+	}
+	.about-container > div{
+		margin: 0rem;
+	}
+	.about-item1{
+		text-align: center;
+	}
+	.about-item1 .btn{
+		display: inline-block;
+	}
+	/*Blog Section*/
+	.blog-container{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.blog-container *{
+		margin-right: 0rem;
+	}
+	.blog-item img{
+		height: 50rem;
+	}
+	.blog-des{
+		text-align: center;
+	}
+	.blog-des .btn{
+		display: inline-block;
+	}
+	/*Personal trainer section*/
+	.personal-title h3{
+		font-size: 4.2rem;
+	}
+	/*expert Trainer Section*/
+	.expert-container {
+	    display: flex;
+	    flex-direction: column;
+	    flex-wrap: wrap;
+	    align-items: center;
+	}
+	.expert-container *{
+		margin-right: 0rem;
+		margin-top: 3rem;
+	}
+	.expert-item:nth-child(1){
+		margin-top: 0rem;
+	}
+	.expert-item img{
+		height: 50rem
+	}
+	/*Contact Section*/
+	.contact-container{
+		display: flex;
+		flex-direction: column;
+	}
+	/*Footer Section*/
+	.footer-container{
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.footer-container >div{
+		margin-top: 5rem;
+		margin-right: 0rem;
+	}
+	div.footer-item1{
+		margin-top: 0rem;
+	}
+	/*footer item2*/
+	.footer-blog{
+		margin-bottom: 2.5rem;
+	}
+	.blog-area{
+		grid-column-gap: 0rem;
+	}
+	.blog-area img{
+		width: 90%;
+		height: 12rem;
+	}
+	.insta-img{
+		grid-column-gap: 2rem;
+    	grid-row-gap: 2rem;
+	}
+	.insta-img img{
+		width: 100%;
+	}
+
+}
+@media only screen and (max-width: 600px){
+
+	/*sticky menu*/
+	.fixed{
+		padding: 3.5rem 2rem;
+	}
+
+}
+
+
+
+
+
+/*Mobile Layout 479px to 320px*/
+@media only screen and (max-width: 479px){
+
+	/*Header section menu*/
+	.main-menu{
+		display: none;
+	}
+	/*mobile menu*/
+	.mobile-menu{
+		display: block;
+	}
+	.navbar{
+		display: block;
+    	padding: 0rem 3rem;
+	}
+	/*sticky menu*/
+	nav.fixed{
+		padding: 1rem 3rem;
+	}
+	/*Header Section Containe*/
+	.header-contain2 h1{
+		font-size: 5rem;
+	}
+	/*Booking Section*/
+	.booking-form{
+		display: grid;
+	    grid-template-columns: repeat(2, 1fr);
+	    grid-gap: 2rem;
+	    margin-top: 4rem;
+	}
+	.booking-form button{
+		grid-column-start: auto;
+	}
+	/*Blog Section*/
+	.blog-item img{
+		height: 40rem;
+	}
+	/*Expert Trainer Section*/
+	.expert-item img{
+		height: 40rem;
+	}
+
+}
+@media only screen and (max-width: 450px){
+
+	/*personal trainer Section*/
+	.personal-title h2{
+		font-size: 2.9rem;
+	}
+	.personal-title h3{
+		font-size: 2.7rem;
+	}
+
+}
+@media only screen and (max-width: 420px){
+
+	/*Header Section*/
+	.header-contain2 h1{
+		font-size: 4rem;
+	}
+	/*Footer Section*/
+	.blog-area img{
+		height: 9rem;
+	}
+
+}
+@media only screen and (max-width: 400px){
+
+	/*blog section*/
+	.blog-item img{
+		height: 30rem;
+	}
+	/*expert trainer section*/
+	.expert-item img{
+		height: 30rem;
+	}
+	/*footer section*/
+	.blog-area img{
+		height: 7rem; 
+	}
+
+}
+@media only screen and (max-width: 380px){
+
+	.booking-form{
+		display: grid;
+	    grid-template-columns: auto;
+	    grid-gap: 2rem;
+	    margin-top: 4rem;
+	}
+	
+}
+@media only screen and (max-width: 350px){
+
+	/*header section*/
+	.header-contain2 h1{
+		font-size: 3rem;
+	}
+
+}
